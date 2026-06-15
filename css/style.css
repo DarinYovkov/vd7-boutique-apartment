@@ -1,1 +1,123 @@
+/* ===== RESET ===== */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ===== HERO ===== */
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+                url("../images/apartment/hero.jpg") center center / cover no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.overlay {
+    color: white;
+    padding: 20px;
+}
+
+.overlay h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.overlay p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* ===== BUTTON ===== */
+
+.btn {
+    display: inline-block;
+    padding: 14px 32px;
+    background: #c89b3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: .3s;
+}
+
+.btn:hover {
+    background: #a67c28;
+}
+
+/* ===== CARDS ===== */
+
+.cards {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 16px;
+    padding: 35px 20px;
+
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+
+    font-size: 2rem;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+
+    transition: .25s;
+}
+
+.card span {
+    display: block;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px rgba(0,0,0,.15);
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width:768px){
+
+    .overlay h1{
+        font-size:2.2rem;
+    }
+
+    .overlay p{
+        font-size:1rem;
+    }
+
+}
