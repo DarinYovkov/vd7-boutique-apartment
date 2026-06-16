@@ -221,3 +221,17 @@ main{
     }
 
 }
+/* ===== INFO CARDS ===== */
+
+.info-card{
+    background:#fff;
+    border-radius:16px;
+    padding:25px;
+    margin:20px 0;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.info-card h3{
+    color:#c89b3c;
+    margin-bottom:10px;
+}
