@@ -249,3 +249,32 @@ main{
 .hero.small .overlay p {
     font-size: 1.1rem;
 }
+/* ===== SECTION TITLES ===== */
+
+main h2{
+    font-family:"Playfair Display", serif;
+    font-size:2rem;
+    margin:40px 0 20px;
+    color:#222;
+}
+
+/* ===== INFO CARD HOVER ===== */
+
+.info-card{
+    transition:all .3s ease;
+}
+
+.info-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+}
+
+/* ===== LISTS ===== */
+
+.info-card ul{
+    padding-left:20px;
+}
+
+.info-card li{
+    margin:10px 0;
+}
