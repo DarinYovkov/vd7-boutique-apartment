@@ -121,3 +121,50 @@ footer {
     }
 
 }
+/* ===== SMOOTH SCROLL ===== */
+
+html{
+    scroll-behavior:smooth;
+}
+
+/* ===== CONTAINER ===== */
+
+main{
+    padding-bottom:60px;
+}
+
+/* ===== CARD IMPROVEMENTS ===== */
+
+.card{
+    cursor:pointer;
+    border:1px solid rgba(0,0,0,.05);
+}
+
+.card:hover{
+    background:#c89b3c;
+    color:#fff;
+}
+
+.card:hover span{
+    color:#fff;
+}
+
+/* ===== HERO ANIMATION ===== */
+
+.overlay{
+    animation:fadeIn 1.2s ease;
+}
+
+@keyframes fadeIn{
+
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
