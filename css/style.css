@@ -391,3 +391,59 @@ footer{
     margin-top:80px;
 
 }
+/* ===== QUICK ACCESS ===== */
+
+.quick-access{
+    max-width:1100px;
+    margin:-45px auto 50px;
+    padding:0 20px;
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+
+    position:relative;
+    z-index:30;
+}
+
+.quick-item{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    text-align:center;
+
+    text-decoration:none;
+
+    color:#333;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.quick-item:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 18px 40px rgba(0,0,0,.15);
+
+}
+
+.quick-item .icon{
+
+    font-size:2rem;
+
+    margin-bottom:12px;
+
+}
+
+.quick-item span{
+
+    font-weight:600;
+
+}
