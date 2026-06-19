@@ -278,3 +278,116 @@ main h2{
 .info-card li{
     margin:10px 0;
 }
+/* ===========================================
+   LUXURY EFFECTS v2
+=========================================== */
+
+/* Hero */
+
+.hero{
+    position:relative;
+    overflow:hidden;
+}
+
+.hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+
+    background:
+    radial-gradient(circle at top right,
+    rgba(200,155,60,.28),
+    transparent 40%);
+
+    pointer-events:none;
+}
+
+.overlay{
+    position:relative;
+    z-index:2;
+    max-width:760px;
+}
+
+.overlay h1{
+
+    font-size:clamp(2.8rem,6vw,5rem);
+
+    letter-spacing:1px;
+
+    text-shadow:
+    0 5px 18px rgba(0,0,0,.35);
+}
+
+.overlay p{
+
+    font-size:1.25rem;
+
+    color:#f2f2f2;
+
+    margin:auto;
+
+    max-width:650px;
+
+}
+
+/* Button */
+
+.btn{
+
+    font-weight:600;
+
+    letter-spacing:.4px;
+
+    box-shadow:
+    0 15px 40px rgba(200,155,60,.35);
+
+}
+
+.btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:
+    0 22px 55px rgba(200,155,60,.45);
+
+}
+
+/* Cards */
+
+.cards{
+
+    margin-top:-70px;
+
+    position:relative;
+
+    z-index:20;
+
+}
+
+.card{
+
+    background:rgba(255,255,255,.92);
+
+    backdrop-filter:blur(10px);
+
+    border:none;
+
+    border-radius:22px;
+
+}
+
+.card:hover{
+
+    transform:
+        translateY(-8px)
+        scale(1.03);
+
+}
+
+/* Footer */
+
+footer{
+
+    margin-top:80px;
+
+}
