@@ -447,3 +447,54 @@ footer{
     font-weight:600;
 
 }
+/* ===== WELCOME ===== */
+
+.welcome-section{
+
+    max-width:1000px;
+
+    margin:40px auto;
+
+    padding:0 20px;
+
+}
+
+.welcome-box{
+
+    background:#fff;
+
+    border-radius:22px;
+
+    padding:50px;
+
+    text-align:center;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.welcome-box h2{
+
+    font-family:"Playfair Display",serif;
+
+    font-size:2.3rem;
+
+    margin-bottom:20px;
+
+    color:#222;
+
+}
+
+.welcome-box p{
+
+    font-size:1.1rem;
+
+    color:#666;
+
+    max-width:720px;
+
+    margin:auto;
+
+    line-height:1.9;
+
+}
